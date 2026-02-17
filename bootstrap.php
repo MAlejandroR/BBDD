@@ -12,4 +12,5 @@ spl_autoload_register($carga);
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$bd = new BBDD();
+
+
